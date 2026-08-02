@@ -1,49 +1,352 @@
 {
-  "1": "invited",
-  "2": "to call",
-  "3": "confirmed",
-  "4": "confirmed",
-  "5": "invited",
-  "6": "invited",
-  "7": "confirmed",
-  "8": "to call",
-  "9": "declined",
-  "10": "to call",
-  "11": "to call",
-  "12": "standby",
-  "13": "invited",
-  "14": "standby",
-  "15": "invited",
-  "16": "invited",
-  "17": "standby",
-  "18": "invited",
-  "19": "pending",
-  "20": "invited",
-  "21": "invited",
-  "22": "invited",
-  "23": "invited",
-  "24": "invited",
-  "25": "invited",
-  "26": "invited",
-  "27": "invited",
-  "28": "to call",
-  "29": "confirmed",
-  "30": "invited",
-  "31": "to call",
-  "32": "invited",
-  "33": "to call",
-  "34": "standby",
-  "35": "standby",
-  "36": "standby",
-  "37": "invited",
-  "38": "confirmed",
-  "39": "confirmed",
-  "40": "confirmed",
-  "41": "declined",
-  "42": "confirmed",
-  "43": "pending",
-  "44": "confirmed",
-  "45": "confirmed",
-  "46": "declined",
-  "47": "declined"
+  "guests": [
+    {
+      "id": 1,
+      "name": "Kshitij & Somya",
+      "category": "married",
+      "pax": 2,
+      "status": "invited"
+    },
+    {
+      "id": 2,
+      "name": "Nishi & Arpit",
+      "category": "married",
+      "pax": 2,
+      "status": "to call"
+    },
+    {
+      "id": 3,
+      "name": "Yash & Rishita",
+      "category": "married",
+      "pax": 2,
+      "status": "confirmed"
+    },
+    {
+      "id": 4,
+      "name": "Muskan & Aniruddh",
+      "category": "married",
+      "pax": 2,
+      "status": "confirmed"
+    },
+    {
+      "id": 5,
+      "name": "Vishal & Purvi",
+      "category": "married",
+      "pax": 2,
+      "status": "invited"
+    },
+    {
+      "id": 6,
+      "name": "Abhinav & Disha",
+      "category": "married",
+      "pax": 2,
+      "status": "invited"
+    },
+    {
+      "id": 7,
+      "name": "Prashu & Simran",
+      "category": "married",
+      "pax": 2,
+      "status": "confirmed"
+    },
+    {
+      "id": 8,
+      "name": "Subuhani & Wife",
+      "category": "married",
+      "pax": 2,
+      "status": "to call"
+    },
+    {
+      "id": 9,
+      "name": "Manish & Bhabhi",
+      "category": "married",
+      "pax": 2,
+      "status": "declined"
+    },
+    {
+      "id": 10,
+      "name": "Kunal & Pratiksha",
+      "category": "married",
+      "pax": 2,
+      "status": "to call"
+    },
+    {
+      "id": 11,
+      "name": "Aman & Ritika",
+      "category": "married",
+      "pax": 2,
+      "status": "to call"
+    },
+    {
+      "id": 12,
+      "name": "Vivek & Bhabhi",
+      "category": "married",
+      "pax": 2,
+      "status": "standby"
+    },
+    {
+      "id": 13,
+      "name": "Rishabh & Anushka",
+      "category": "married",
+      "pax": 2,
+      "status": "invited"
+    },
+    {
+      "id": 14,
+      "name": "Sandeep (Pune) & Bhabhi",
+      "category": "married",
+      "pax": 2,
+      "status": "standby"
+    },
+    {
+      "id": 42,
+      "name": "Sourabh",
+      "category": "single",
+      "pax": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 15,
+      "name": "Dev & Raksha",
+      "category": "couple",
+      "pax": 2,
+      "status": "invited"
+    },
+    {
+      "id": 16,
+      "name": "Srijan & Leena",
+      "category": "couple",
+      "pax": 2,
+      "status": "invited"
+    },
+    {
+      "id": 17,
+      "name": "Abhinav Gautam & Noor",
+      "category": "couple",
+      "pax": 2,
+      "status": "standby"
+    },
+    {
+      "id": 18,
+      "name": "Ujjwal",
+      "category": "single",
+      "note": "school",
+      "local": true,
+      "pax": 1,
+      "status": "invited"
+    },
+    {
+      "id": 19,
+      "name": "Kavya",
+      "category": "single",
+      "note": "school",
+      "local": true,
+      "pax": 1,
+      "status": "pending"
+    },
+    {
+      "id": 20,
+      "name": "Ayush",
+      "category": "single",
+      "note": "school",
+      "local": true,
+      "pax": 1,
+      "status": "invited"
+    },
+    {
+      "id": 21,
+      "name": "Guru",
+      "category": "single",
+      "note": "school",
+      "local": true,
+      "pax": 1,
+      "status": "invited"
+    },
+    {
+      "id": 22,
+      "name": "Shivam",
+      "category": "single",
+      "note": "school",
+      "local": true,
+      "pax": 1,
+      "status": "invited"
+    },
+    {
+      "id": 23,
+      "name": "Angel",
+      "category": "single",
+      "note": "school",
+      "local": true,
+      "pax": 1,
+      "status": "invited"
+    },
+    {
+      "id": 24,
+      "name": "Gunjan",
+      "category": "single",
+      "pax": 1,
+      "status": "invited"
+    },
+    {
+      "id": 25,
+      "name": "Ganga",
+      "category": "single",
+      "pax": 1,
+      "status": "invited"
+    },
+    {
+      "id": 26,
+      "name": "Kundu",
+      "category": "single",
+      "pax": 1,
+      "status": "invited"
+    },
+    {
+      "id": 27,
+      "name": "Anjaneya",
+      "category": "single",
+      "pax": 1,
+      "status": "invited"
+    },
+    {
+      "id": 28,
+      "name": "Sahil Sharma",
+      "category": "single",
+      "pax": 1,
+      "status": "to call"
+    },
+    {
+      "id": 29,
+      "name": "Ditsha",
+      "category": "single",
+      "pax": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 30,
+      "name": "Sam",
+      "category": "single",
+      "pax": 1,
+      "status": "invited"
+    },
+    {
+      "id": 31,
+      "name": "Neha",
+      "category": "single",
+      "pax": 1,
+      "status": "to call"
+    },
+    {
+      "id": 32,
+      "name": "Paridhi",
+      "category": "single",
+      "pax": 1,
+      "status": "invited"
+    },
+    {
+      "id": 33,
+      "name": "Sumangal",
+      "category": "single",
+      "pax": 1,
+      "status": "to call"
+    },
+    {
+      "id": 34,
+      "name": "Shefali",
+      "category": "single",
+      "pax": 1,
+      "status": "standby"
+    },
+    {
+      "id": 35,
+      "name": "Monica",
+      "category": "single",
+      "pax": 1,
+      "status": "standby"
+    },
+    {
+      "id": 36,
+      "name": "Vini",
+      "category": "single",
+      "pax": 1,
+      "status": "standby"
+    },
+    {
+      "id": 37,
+      "name": "Mitharth",
+      "category": "single",
+      "pax": 1,
+      "status": "invited"
+    },
+    {
+      "id": 38,
+      "name": "Projit",
+      "category": "single",
+      "pax": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 39,
+      "name": "Mohit",
+      "category": "single",
+      "pax": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 40,
+      "name": "Mithun",
+      "category": "single",
+      "pax": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 41,
+      "name": "Sneha",
+      "category": "single",
+      "pax": 1,
+      "status": "declined"
+    },
+    {
+      "id": 43,
+      "name": "Ballu",
+      "category": "single",
+      "pax": 1,
+      "status": "pending"
+    },
+    {
+      "id": 44,
+      "name": "Shankey",
+      "category": "single",
+      "pax": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 45,
+      "name": "Ratna",
+      "category": "single",
+      "pax": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": 46,
+      "name": "Rishabh Saxena",
+      "category": "single",
+      "pax": 1,
+      "status": "declined"
+    },
+    {
+      "id": 47,
+      "name": "Dishant",
+      "category": "single",
+      "pax": 1,
+      "status": "declined"
+    },
+    {
+      "id": 48,
+      "name": "Parth",
+      "category": "single",
+      "pax": 1,
+      "status": "pending"
+    }
+  ]
 }
