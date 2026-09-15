@@ -99,13 +99,6 @@
       "status": "standby"
     },
     {
-      "id": 42,
-      "name": "Sourabh",
-      "category": "single",
-      "pax": 1,
-      "status": "confirmed"
-    },
-    {
       "id": 15,
       "name": "Dev & Raksha",
       "category": "couple",
